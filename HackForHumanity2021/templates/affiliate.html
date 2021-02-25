@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Small Business Resources</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+    <link rel="stylesheet" href="./affiliate.css" />
+
+    <!-- import the webpage's javascript file -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand|Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link href = "https://fonts.googleapis.com/css?family=Proxima+Nova" rel = "stylesheet">
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class = "menubar">
+        
+
+      
+      <center> <div id = "title">  <h1> Bridging The Gap </h1> </div></center>
+       <a href = "index.html" id = "home"> <h2> <u>Home</u> </h2></a>
+      <div class = "dropdown"> 
+        <button  class="dropbtn"> <center> <h2> <u> Browse our database </u> </h2> </center> </button> 
+        <div class="dropdown-content">
+          <a href="restaurants.html">restaurants</a>
+          <a href="bars.html">bars</a>
+          <a href="hotels.html">hotels</a>
+          <a href="DOER.html">doctor's offices/ERs</a>
+          <a href="grocery.html">grocery stores</a>
+          <a href="C19.html">covid-19 resources</a>
+        
+        </div>
+      </div>
+      
+  
+      
+     <a href = "affiliate.html" id = "affiliate"> <h2> <u>Become an Affiliate</u> </h2></a>
+    </div>
+    
+    
+    <div id="text">
+      <center>
+
+    <h1 id="words" class = "title anim-typewriter"> <br/> Become an affiliate </h1> 
+        
+    <div class="ShowMore" id="ShowMore">
+      <button id="ShowFilters" onclick="ShowFilters()" ondblclick="myFunction()">Login</button>
+    </div>
+
+    div class="Filters" id="Filters" style="Display:None;">
+      <!--<label for="login" id="username">Username: </label>
+      <input type="text" id="username1" name="username" value="">
+       <label for="login" id="password">Password: </label>
+      <input type="text" id="password2" name="username" value=""> -->
+      <form action="#" method="POST">
+        <input type="text" name="username" placeholder="Enter Username"/>
+        <input type="text" name="password" placeholder="Enter Password"/>
+        <input type="submit" value="submit"/>
+      </form>
+    </div>
+
+<!--     <div class="ShowLess" id="ShowLess">
+      <button id="HideFilters" onclick="HideFilters()">Hide Login</button>
+    </div> -->
+        
+        
+        
+    <div class="ShowMore" id="signinshow">
+      <button id="siginfilter" onclick="ShowFilters2()">Sign In</button>
+    </div>
+
+    <div class="Filters" id="signin" style="Display:None;">
+       <!--<label for="login" id="name">Name: </label>
+      <input type="text" id="name2" name="username" value="">
+       <label for="login" id="email">Email: </label>
+      <input type="email" id="email2" name="username" value="">
+      <label for="login" id="createuser">Create Username: </label>
+      <input type="text" id="username2" name="username" value="">
+       <label for="login" id="createpassword">Create Password: </label>
+      <input type="text" id="password3" name="username" value=""> -->
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Enter Name"/>
+        <input type="email" name="email" placeholder="Enter Email"/>
+        <input type="text" name="username" placeholder="Enter Username"/>
+        <input type="text" name="password" placeholder="Enter Password"/>
+        <input type="submit" value="submit"/>
+      </form>
+    </div>
+
+<!--     <div class="ShowLess" id="signinless">
+      <button id="signinhidefilters" onclick="HideFilters2()">Hide Sign In</button>
+    </div> -->
+      </center>
+    </div>
+    
+
+    
+      </body>
+  <script src="./affiliate.js"> </script>
+</html>

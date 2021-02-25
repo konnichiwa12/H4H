@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Small Business Resources</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="./Dstyle.css" />
+
+    <!-- import the webpage's javascript file -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand|Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link href = "https://fonts.googleapis.com/css?family=Proxima+Nova" rel = "stylesheet">
+    <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body class="Core">
+    <div class = "menubar">
+     
+      
+       <center> <div id = "title">  <h1> Bridging The Gap </h1> </div></center>
+      <a href = "index.html" id = "home"> <h2> <u>Home</u> </h2></a>
+      <div class = "dropdown"> 
+        <button  class="dropbtn"> <center> <h2> <u> Browse our database </u> </h2> </center> </button> 
+        <div class="dropdown-content">
+          <a href="restaurants.html">restaurants</a>
+          <a href="bars.html">bars</a>
+          <a href="hotels.html">hotels</a>
+          <a href="DOER.html">doctor's offices/ERs</a>
+          <a href="grocery.html">grocery stores</a>
+          <a href="C19.html">covid-19 resources</a>
+        </div>
+      </div>
+      
+   <a href = "affiliate.html" id = "affiliate"> <h2> <u>Become an affiliate</u> </h2></a>
+     </div>
+    <div class="searchstuff">
+      
+      <h1 class="label">Hotels</h1>
+      
+    <div class="SearchBar">
+      <label for="searchb" id="searchlabel">Search: </label>
+      <input type="text" id="searchb" name="searchb" value="">
+    </div>
+
+    <div class="ShowMore" id="ShowMore">
+      <button id="ShowFilters" onclick="ShowFilters()">Show Filters</button>
+    </div>
+
+    <div class="Filters" id="Filters" style="Display:None;">
+      <label for="Inside-Dining"  class="FiltLabels">Inside-Dining</label>
+      <input type="checkbox" name="Inside-Dining" value="" id="Inside-Dining" class="FiltButtons">
+      <label for="Outside-Dining"  class="FiltLabels">Outside-Dining</label>
+      <input type="checkbox" name="Outside-Dining" value="" id="Outside-Dining" class="FiltButtons">
+      <label for="Take-Out"  class="FiltLabels">Take-Out</label>
+      <input type="checkbox" name="Take-Out" value="" id="Take-Out" class="FiltButtons">
+      <label for="Limited-Capacity"  class="FiltLabels">Limited-Capacity </label>
+      <input type="checkbox" name="Limited-Capacity" value="" id="Limited-Capacity" class="FiltButtons">
+      <label for="24/7 Service" class="FiltLabels">24/7 Service</label>
+      <input type="checkbox" name="24/7 Service" value="" id="24/7 Service" class="FiltButtons">
+    </div>
+
+    <div class="ShowLess" id="ShowLess">
+      <button id="HideFilters" onclick="HideFilters()">Hide Filters</button>
+    </div>
+
+    </div>
+
+ 
+  </body>
+  <script src="./Dmain.js"> </script>
+</html>

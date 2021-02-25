@@ -1,0 +1,126 @@
+
+/* .Core{
+  margin: 0;
+  background-image: url("https://cdn.glitch.com/cb19077b-5557-44cc-b344-153696264364%2FVedya-Konda-30.JPG?v=1613860378711"); 
+  background-size: cover;
+} */
+
+.searchstuff{
+  width: auto;
+  height: 100%;
+  margin: auto;
+  padding: 175px;
+  background-image: url("https://cdn.glitch.com/cb19077b-5557-44cc-b344-153696264364%2FVedya-Konda-30.JPG?v=1613860378711");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.SearchBar{
+  width: 30%;
+  height: 50px;
+  display: block;
+  background-color: rgba(114, 186, 94, 0.8);
+  padding-top: 13px;
+  padding-left: 10px;
+}
+
+#searchb{
+  width: 20rem;
+  height: 2rem;
+  font-size: 1.75rem;
+  z-index: 1;
+}
+
+#searchlabel{
+  font-size: 1.75rem;
+  color: white;
+}
+
+.ShowMore{
+  color: blue;
+  text-decoration: underline;
+  margin: 2rem;
+  margin-bottom: 0rem;
+  opacity: 0.8;
+}
+
+#ShowFilters{
+  width: 6rem;
+  height: 2rem;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: lightgreen;
+  color: blue;
+  outline: None;
+}
+
+.Filters{
+  margin: 2rem;
+  background: rgba(114, 186, 94, 0.5);
+}
+
+.FiltLabels{
+  margin-right: .5rem;
+}
+
+.FiltButtons{
+  margin-right: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.ShowLess{
+  color: blue;
+  text-decoration: underline;
+  margin: 2rem;
+  margin-top: 0rem;
+  display:none;
+  opacity: 0.8;
+}
+
+#HideFilters{
+  width: 6rem;
+  height: 2rem;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: lightgreen;
+  color: blue;
+  outline: None;
+}
+
+.Categories{
+  display: grid;
+  margin: 2rem;
+  height: 20rem;
+  width: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.Cat{
+  width: 50%;
+  height: 8rem;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  background-color: lightgreen;
+  color: blue;
+  outline: None;
+  opacity: 0.8;
+  }
+
+
+  .Cat:hover{
+    color: darkblue;
+  }
+
